@@ -1,15 +1,14 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Test Page</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TaskFlow - Task Booking & Scheduling System</title>
     <style>
         body { 
             font-family: Arial; 
             background: #f0f0f0; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            height: 100vh; 
             margin: 0; 
         }
         .container { 
@@ -23,10 +22,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>✅ FRONTEND WORKING!</h1>
-        <p>If you can see this, the frontend server is running.</p>
-        <button onclick="alert('It works!')">Click Me</button>
-    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>
